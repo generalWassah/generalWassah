@@ -7,17 +7,21 @@ I combine software development skills with cryptographic research in algebra, nu
 
 🚀 Current Project: Palestine Cipher
 
-The Palestine Cipher is my flagship research and implementation project — an enhanced symmetric cipher inspired by Vigenère but built to overcome its weaknesses.
+The Palestine Cipher is my main research and implementation project — an enhanced symmetric cipher inspired by Vigenère but designed to overcome its weaknesses.
 
-🔑 Key Features:
+🔑 Key Features
 
 Palestine Key – Non-periodic key generation with near-random distribution (IC ≈ 1/26).
 
 NEWS Functions – Four reversible diffusion algorithms (North, East, West, South) based on skew-symmetric structures.
 
-Alpha, Beta, Gamma Enhancements – Layers of key expansion + plaintext diffusion.
+Alpha, Beta, Gamma Enhancements –
 
-Optimized Gamma – Efficient implementation avoiding heavy matrix operations while maximizing security.
+Alpha: Non-periodic key expansion.
+
+Beta: Optimized plaintext diffusion using NEWS functions.
+
+Gamma: Optimized combination of Alpha + Beta.
 
 Resistant to frequency analysis, with strong avalanche effect and asymmetric work factor for attackers.
 
@@ -25,9 +29,9 @@ Resistant to frequency analysis, with strong avalanche effect and asymmetric wor
 
 🧑‍💻 Tech Stack
 
-Languages & Frameworks: JavaScript (Fullstack), Python, Node.js, HTML, CSS
+Languages & Frameworks: JavaScript (Fullstack), Node.js, HTML, CSS
 
-Security & Crypto: Custom cipher design, key generation, diffusion algorithms, randomness testing (NIST suite)
+Security & Crypto: Custom cipher design, key generation, diffusion algorithms
 
 Other Interests: Applied algebra, linear Diophantine equations, trapdoor cryptographic schemes
 
